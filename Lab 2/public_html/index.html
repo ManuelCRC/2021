@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <h1>Formulario de Artes</h1>
+            <caption><h2>Términos de Búsqueda</h2>
+            </caption>
+            <table border="">
+                <tr>
+                    <td>OBRA</td>
+                    <td>TIPO</td>
+                    <td>DISPONIBILIDAD</td>
+                    <td>ESTILO</td>
+                
+                </tr>
+                <tr>
+                    <td><p>Título</p>
+                        <input type="text" placeholder="" id="txt_titulo"/></td>
+                    <td><p>Escultura</p>
+                        <input type="checkbox" id="check_deacuerdo"/></td>
+                    <td><p> Público</p>
+                        <input type="Radio" id="radio_si" name="radio_acepto"/><br>
+                    <td> 
+                        <select id="txt_estilo">
+                            <option value="1"> Clásico</option>
+                            <option value="2"> Abstracto</option>
+                            <option value="3"> Surrealista</option>
+                            <option value="4"> Otros</option>
+                        </select>
+                    </td>  
+                    
+                </tr>
+                <tr>
+                    <td><p>Autor</p>
+                        <input type="text" placeholder="" id="txt_autor"/></td>
+                    <td><p>Arquitectura</p>
+                        <input type="checkbox" id="check_deacuerdo"/></td>
+                    <td><p> Privado</p>
+                        <input type="Radio" id="radio_si" name="radio_acepto"/><br>
+                        
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p>Pintura</p>
+                        <input type="checkbox" id="check_deacuerdo"/></td>
+                </tr>
+            </table>
+            <h2>Sugerencias para mejorar</h2>
+            <textarea id= "txt_sugerencias" rows="4" cols="40">Escribe aquí tus comentarios y/o sugerencias </textarea>
+            <br>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Limpiar Formulario"/>
+        </form>
+    </body>
+</html>
