@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p align="center"><b>Bienvenidos, </b>al curso de programación web
+        Hoy es la primera lección del curso
+        El proyecto final será XXXXXX.... 
+        </p>
+        
+        <p align="right" ><b>Bienvenidos, </b>al curso de programación web 
+        Hoy es la primera lección del curso 
+        El proyecto final será XXXXXX.... 
+        </p>
+        <p align="left" ><b>Bienvenidos, </b>al curso de programación web 
+        Hoy es la primera lección del curso 
+        El proyecto final será XXXXXX.... 
+        </p>
+        
+        <h1>Titulo1</h1>
+        <h2>Titulo2</h2>
+        
+        <h1>
+            P<i>rueba</i> con <u>textos</u>,
+            x= (log<sub>10</sub>)<sup>2</sup>
+        </h1>    
+        
+        
+        <h1> Ejemmplo de listas</h1>    
+        <p>Listas de Provincias</p>
+        <ul>
+            <li>San José</li>
+            <li>Heredia</li>
+            <li>Cartago
+                <ul> 
+                    <li>Orosi</li>
+                </ul>
+            </li>
+        </ul>
+        Pasos para pasar el curso
+        <ol>
+            <li>Hacer Los Laboratorios</li>
+            <li>Hacer el Proyecto</li>
+        </ol>//Son para listas enumeradas
+        
+        <br><br>//Esto son espacios
+        
+        <h1>Link a Google</h1>
+        <a href="https://www.google.com" target="_blank">Ir a Google</a>
+        <h1>Rutas relativas</h1>
+        <a href="OtrasPaginas/pagina2.html">Ir a página 2</a>
+        
+        
+        <h1>Imagenes</h1>
+        <img width="200" height="200" 
+            alt="Para accesibilidad" src="https://nestrategia.com/wp-content/uploads/2019/04/php-desarrollo-web.png" />
+        
+        
+        <h1>Tablas</h1>
+        <table border="1">
+            <tr>
+                <td>Horario</td>
+                <td>Actividad</td>
+            </tr>
+            <tr>
+                <td>8:00 am </td>
+                <td>Desayuno </td>
+            </tr>
+        </table>
+        
+        
+        <h1>Formularios</h1>
+        <form onsubmit="return false;" method="GET">
+            <p>Texto normales</p>
+            <input type="text" placeholder="Tel: 99999-9999" id="txt_telefono"/>
+            
+            <p>Textos de contraseña </p>
+            <input type="password" id="txt_password" />
+            
+            <p>Texto Largo</p>
+            <textarea id= "txt_comentario" placeholder="XXXX"> </textarea>
+            
+            <p>Lista de Opciones</p>
+            <select id="txt_provincia">
+                <option value="1"> San José</option>
+                <option value="2"> Heredia</option>
+                <option value="3"> Cartago</option>
+            </select>
+            
+            <p> Botones tipo radio</p>
+            <input type="Radio" id="radio_si" name="radio_acepto"/> Sí <br>
+            <input type="Radio" id="radio_no" name="radio_acepto"/> No 
+            
+            <p>Check´s</p>
+            <input type="checkbox" id="check_deacuerdo"/> Si estoy de acuerdo
+            
+            <p>Botones</p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Limpiar Formulario"/>
+                   
+                
+        </form>
+        
+    </body>
+</html>
